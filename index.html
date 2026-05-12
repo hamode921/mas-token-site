@@ -1,94 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAS Token | Official</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { background-color: #000; color: #fff; scroll-behavior: smooth; }
-        .gold-gradient {
-            background: linear-gradient(to right, #facc15, #eab308, #ca8a04);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            color: #facc15;
-        }
-        .card-bg { background: rgba(17, 24, 39, 0.4); border: 1px solid rgba(234, 179, 8, 0.1); }
-    </style>
-</head>
-<body class="font-sans text-sm">
+<!-- MAS TOKEN OFFICIAL WEBSITE - mas-token.com -->
+<div style="font-family: 'Segoe UI', Roboto, sans-serif; background-color: #0a0a0a; color: #ffffff; line-height: 1.6;">
 
-    <!-- Navbar -->
-    <nav class="p-4 flex justify-between items-center border-b border-gray-900 sticky top-0 bg-black/90 z-50">
-        <h1 class="text-lg font-black gold-gradient tracking-tighter">MAS TOKEN</h1>
-        <a href="https://pancakeswap.finance/swap?outputCurrency=0x6d1434D5fcf063849b2D8b61ede96b351b1398d2" target="_blank" class="bg-yellow-500 text-black px-4 py-1.5 rounded-full text-xs font-bold shadow-lg shadow-yellow-500/20">BUY NOW</a>
-    </nav>
+    <!-- 1. قسم التوكنومكس والأمان الرقمي -->
+    <section id="tokenomics" style="padding: 80px 20px; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="color: #f3ba2f; font-size: 3em; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 2px;">MAS Tokenomics</h2>
+            <p style="color: #888; font-size: 1.1em; margin-bottom: 50px;">Verified Statistics & Security Proofs</p>
 
-    <!-- Hero Section -->
-    <header class="py-12 text-center px-4">
-        <h2 class="text-3xl md:text-5xl font-black mb-3 gold-gradient uppercase tracking-tight">PURE GOLD GEM</h2>
-        <p class="text-xs text-gray-400 mb-8 max-w-xs mx-auto">100% Community Owned. Ownership Renounced. Liquidity Locked.</p>
-        
-        <div class="card-bg p-4 rounded-2xl inline-block w-full max-w-sm">
-            <p class="text-[10px] text-yellow-500 uppercase font-bold mb-2 tracking-widest text-center">Smart Contract</p>
-            <div class="flex flex-col gap-3">
-                <code class="font-mono text-[10px] bg-black/50 p-2 rounded-lg border border-gray-800 break-all text-center">0x6d1434D5fcf063849b2D8b61ede96b351b1398d2</code>
-                <button onclick="navigator.clipboard.writeText('0x6d1434D5fcf063849b2D8b61ede96b351b1398d2'); alert('Copied!')" class="bg-yellow-500 text-black font-bold text-xs py-2 rounded-lg">COPY ADDRESS</button>
-            </div>
-        </div>
-    </header>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                
+                <!-- إجمالي العرض بعد الحرق -->
+                <div style="background: #151515; padding: 30px; border-radius: 25px; border: 1px solid #333;">
+                    <h3 style="color: #f3ba2f; margin-top: 0;">Total Supply</h3>
+                    <p style="font-size: 32px; font-weight: 800; margin: 15px 0;">13.35M <span style="font-size: 14px; color: #ff4d4d; display: block;">(1.65M Burnt Forever)</span></p>
+                    <p style="color: #666; font-size: 0.9em;">Verified on BSC Network</p>
+                </div>
 
-    <!-- About Section -->
-    <section class="py-10 px-6 max-w-md mx-auto">
-        <h3 class="text-xl font-black mb-4 gold-gradient border-b border-gray-900 pb-2 uppercase text-center">About Mas</h3>
-        <p class="text-gray-400 leading-relaxed text-xs text-center">
-            MAS is a decentralized community project on the Binance Smart Chain. We focus on transparency and long-term value. With a total supply of 14,000,000 tokens, we aim to build a strong ecosystem for our holders.
-        </p>
-    </section>
+                <!-- سيولة المنصة المقفولة -->
+                <div style="background: #151515; padding: 30px; border-radius: 25px; border: 1px solid #00ff00; box-shadow: 0 5px 15px rgba(0,255,0,0.05);">
+                    <h3 style="color: #00ff00; margin-top: 0;">Liquidity Pool</h3>
+                    <p style="font-size: 32px; font-weight: 800; margin: 15px 0;">100% LOCKED</p>
+                    <a href="https://www.pinksale.finance/pinklock/bsc/record/1598277" target="_blank" style="display: inline-block; padding: 10px 20px; background: #00ff00; color: #000; border-radius: 12px; text-decoration: none; font-weight: bold;">Verify LP Lock 🛡️</a>
+                </div>
 
-    <!-- Roadmap Section -->
-    <section class="py-10 px-6 max-w-md mx-auto bg-gray-900/20">
-        <h3 class="text-xl font-black mb-6 gold-gradient border-b border-gray-900 pb-2 text-center uppercase">Roadmap</h3>
-        <div class="space-y-6 text-center">
-            <div class="border-l-2 border-yellow-500 pl-4 text-left">
-                <h4 class="text-yellow-500 font-bold text-sm">Phase 1: Launch</h4>
-                <p class="text-[11px] text-gray-500">Token Launch, Website, Community Growth, Social Media presence.</p>
-            </div>
-            <div class="border-l-2 border-gray-700 pl-4 text-left">
-                <h4 class="text-gray-300 font-bold text-sm">Phase 2: Growth</h4>
-                <p class="text-[11px] text-gray-500">BscScan Verification, Marketing Campaign, Reaching 1000+ Holders.</p>
-            </div>
-            <div class="border-l-2 border-gray-700 pl-4 text-left">
-                <h4 class="text-gray-300 font-bold text-sm">Phase 3: Expansion</h4>
-                <p class="text-[11px] text-gray-500">Major Exchange Listings, Partnership Deals, Ecosystem Expansion.</p>
+                <!-- محفظة الفريق المقفولة -->
+                <div style="background: #151515; padding: 30px; border-radius: 25px; border: 1px solid #f3ba2f; box-shadow: 0 5px 15px rgba(243,186,47,0.05);">
+                    <h3 style="color: #f3ba2f; margin-top: 0;">Team Wallet</h3>
+                    <p style="font-size: 32px; font-weight: 800; margin: 15px 0;">3.3M MAS</p>
+                    <a href="https://www.pinksale.finance/pinklock/bsc/record/1576691" target="_blank" style="display: inline-block; padding: 10px 20px; background: #f3ba2f; color: #000; border-radius: 12px; text-decoration: none; font-weight: bold;">Verify Team Lock 🔒</a>
+                </div>
+
+                <!-- حالة الملكية -->
+                <div style="background: #151515; padding: 30px; border-radius: 25px; border: 1px solid #333;">
+                    <h3 style="color: #f3ba2f; margin-top: 0;">Ownership</h3>
+                    <p style="font-size: 32px; font-weight: 800; margin: 15px 0; color: #00ff00;">RENOUNCED</p>
+                    <p style="color: #666; font-size: 0.9em;">100% Community Driven</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Security Proofs -->
-    <section class="py-10 px-6 max-w-md mx-auto">
-        <h3 class="text-xl font-black mb-6 gold-gradient text-center uppercase">Security Proofs</h3>
-        <div class="grid grid-cols-1 gap-4 text-center">
-            <a href="https://www.pinksale.finance/pinklock/bsc/record/1598277" target="_blank" class="card-bg p-4 rounded-xl flex items-center justify-between hover:bg-gray-800/50 transition">
-                <span class="text-xs font-bold">Liquidity Locked 🔒</span>
-                <span class="text-[10px] text-yellow-500 underline uppercase font-bold">Verify</span>
-            </a>
-            <a href="https://www.pinksale.finance/pinklock/bsc/record/1598277" target="_blank" class="card-bg p-4 rounded-xl flex items-center justify-between hover:bg-gray-800/50 transition">
-                <span class="text-xs font-bold">Team Locked 🛡️</span>
-                <span class="text-[10px] text-yellow-500 underline uppercase font-bold">Verify</span>
-            </a>
+    <!-- 2. قسم الشركاء (Partners) - جديد -->
+    <section id="partners" style="padding: 60px 20px; background-color: #0d0d0d; text-align: center; border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a;">
+        <h2 style="color: #f3ba2f; font-size: 2.2em; margin-bottom: 40px;">Trusted Ecosystem Partners</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; opacity: 0.7;">
+            <div style="min-width: 140px;"><p style="font-weight: bold;">PinkSale</p><small style="color: #888;">Security Partner</small></div>
+            <div style="min-width: 140px;"><p style="font-weight: bold;">BscScan</p><small style="color: #888;">Transparency</small></div>
+            <div style="min-width: 140px;"><p style="font-weight: bold;">Vercel</p><small style="color: #888;">Infrastructure</small></div>
+            <div style="min-width: 140px;"><p style="font-weight: bold;">ImprovMX</p><small style="color: #888;">Communication</small></div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-12 text-center border-t border-gray-900 bg-black px-6">
-        <div class="flex flex-col gap-4 mb-8">
-            <a href="https://t.me/MASBNB15M" target="_blank" class="text-yellow-500 font-bold text-sm tracking-widest uppercase">Telegram: @MASBNB15M</a>
-            <a href="https://x.com/MASBNB" target="_blank" class="text-yellow-500 font-bold text-sm tracking-widest uppercase">Twitter: @MASBNB</a>
-            <a href="mailto:sezarkin3@gmail.com" class="text-gray-500 text-[10px] underline lowercase">sezarkin3@gmail.com</a>
+    <!-- 3. قسم خارطة الطريق (Roadmap) -->
+    <section id="roadmap" style="padding: 80px 20px; background-color: #0a0a0a; text-align: center;">
+        <h2 style="color: #f3ba2f; font-size: 2.5em; margin-bottom: 50px;">MAS Roadmap 2026</h2>
+        <div style="max-width: 850px; margin: 0 auto; text-align: left; border-left: 3px solid #f3ba2f; padding-left: 35px;">
+            <div style="margin-bottom: 45px;">
+                <h3 style="color: #f3ba2f; margin-bottom: 10px;">Phase 1: Foundation (Completed)</h3>
+                <ul style="color: #aaa; list-style: square;">
+                    <li>MAS Token Launch on BSC.</li>
+                    <li>1.65M Tokens Burnt to ensure scarcity.</li>
+                    <li>Liquidity & Team Tokens Locked on PinkSale.</li>
+                </ul>
+            </div>
+            <div style="margin-bottom: 45px;">
+                <h3 style="color: #f3ba2f; margin-bottom: 10px;">Phase 2: Awareness & Security</h3>
+                <ul style="color: #aaa; list-style: square;">
+                    <li>Launching official domain mas-token.com.</li>
+                    <li>Establishing Professional Support via support@mas-token.com.</li>
+                    <li>Growing MASBNB15M Telegram Community.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 style="color: #f3ba2f; margin-bottom: 10px;">Phase 3: Ecosystem Expansion</h3>
+                <ul style="color: #aaa; list-style: square;">
+                    <li>Major Exchange Listings & Global Marketing.</li>
+                    <li>Development of New Utilities for MAS Holders.</li>
+                </ul>
+            </div>
         </div>
-        <p class="text-gray-800 text-[9px] uppercase tracking-tighter">© 2026 MAS TOKEN. Developed by Sezar.</p>
+    </section>
+
+    <!-- 4. قسم الفريق (Team) -->
+    <section id="team" style="padding: 80px 20px; text-align: center; background-color: #0d0d0d;">
+        <h2 style="color: #f3ba2f; font-size: 2.5em; margin-bottom: 50px;">Meet the MAS Team</h2>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+            <div style="background: #151515; padding: 35px; border-radius: 25px; width: 300px; border-bottom: 5px solid #f3ba2f;">
+                <div style="font-size: 55px; margin-bottom: 20px;">👨‍💻</div>
+                <h3 style="margin-bottom: 5px;">Sezar</h3>
+                <p style="color: #f3ba2f; font-weight: 600;">Lead Developer & Founder</p>
+                <p style="font-size: 0.9em; color: #777;">Expert in Smart Contracts & Tokenomics.</p>
+            </div>
+            <div style="background: #151515; padding: 35px; border-radius: 25px; width: 300px; border-bottom: 5px solid #f3ba2f;">
+                <div style="font-size: 55px; margin-bottom: 20px;">📢</div>
+                <h3 style="margin-bottom: 5px;">Community Leaders</h3>
+                <p style="color: #f3ba2f; font-weight: 600;">Marketing & PR</p>
+                <p style="font-size: 0.9em; color: #777;">Managing the MASBNB15M Telegram Movement.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. قسم الدعم الرسمي (Footer) -->
+    <footer style="padding: 60px 20px; background: #000; text-align: center; border-top: 1px solid #222;">
+        <h3 style="color: #fff; margin-bottom: 15px;">Official Support Center</h3>
+        <p style="color: #777; margin-bottom: 25px;">For inquiries, partnerships, or official support, reach out to us:</p>
+        <a href="mailto:support@mas-token.com" style="font-size: 24px; color: #f3ba2f; text-decoration: none; font-weight: bold; border-bottom: 2px solid #f3ba2f;">
+            support@mas-token.com
+        </a>
+        <p style="margin-top: 40px; color: #444; font-size: 0.8em;">© 2026 MAS Token Ecosystem. All Rights Reserved.</p>
     </footer>
 
-</body>
-</html>
+</div>
