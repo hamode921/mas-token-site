@@ -1,23 +1,6 @@
 <!-- MAS TOKEN OFFICIAL WEBSITE - mas-token.com -->
 <div style="font-family: 'Segoe UI', Roboto, sans-serif; background-color: #0a0a0a; color: #ffffff; line-height: 1.6;">
 
-    <!-- النبذة التعريفية في مقدمة الصفحة مع زر اقرأ المزيد -->
-    <section id="about-mas" style="padding: 60px 20px; text-align: center; border-bottom: 1px solid #222; background: #050505;">
-        <div style="max-width: 900px; margin: 0 auto;">
-            <h2 style="color: #f3ba2f; font-size: 2em; margin-bottom: 20px;">ABOUT MAS TOKEN</h2>
-            <p style="font-size: 1.2em; color: #eee;">
-                MAS was born from a vision to create a truly fair and transparent financial ecosystem. Our primary goal is to bridge the gap between complex blockchain technology and everyday users, providing a secure, community-governed asset that rewards long-term conviction.
-            </p>
-            
-            <details style="cursor: pointer; margin-top: 15px;">
-                <summary style="color: #f3ba2f; font-weight: bold; list-style: none; text-decoration: underline;">[ Read More - اقرأ المزيد ]</summary>
-                <div style="margin-top: 20px; color: #ccc; background: #111; padding: 20px; border-radius: 15px; text-align: left;">
-                    <p>We believe that financial freedom should not be a privilege, but a right. MAS is designed to be the backbone of a growing movement where trust is verified by code, and growth is driven by the collective strength of its holders. Our commitment to transparency is reflected in every burn and every locked pool, ensuring a deflationary and secure environment for all participants.</p>
-                </div>
-            </details>
-        </div>
-    </section>
-
     <!-- 1. الهيرو (العنوان الرئيسي) -->
     <section id="hero" style="padding: 100px 20px; text-align: center; background: radial-gradient(circle, #1a1a1a 0%, #000 100%);">
         <h1 style="color: #f3ba2f; font-size: 3.5em; margin-bottom: 20px; letter-spacing: 3px;">MAS TOKEN</h1>
@@ -26,41 +9,58 @@
         </div>
     </section>
 
-    <!-- 2. الأمان والشفافية (التوكنومكس) - مع العقد وزر النسخ -->
+    <!-- 2. الأمان والشفافية (التوكنومكس) -->
     <section id="tokenomics" style="padding: 80px 20px; text-align: center;">
         <div style="max-width: 1200px; margin: 0 auto;">
             <h2 style="color: #f3ba2f; font-size: 2.5em; margin-bottom: 20px;">SECURITY & TRANSPARENCY</h2>
             
-            <!-- حقل عقد العملة مع ميزة النسخ -->
+            <!-- حقل عقد العملة -->
             <div style="background: #111; padding: 15px; border-radius: 10px; border: 1px dashed #f3ba2f; display: inline-block; margin-bottom: 40px; max-width: 100%;">
-                <code id="contractAddr" style="color: #fff; font-size: 14px; word-break: break-all;">0x6d1434d5fcf063849b2d8b61ede96b351b1398d2</code>
+                <code style="color: #fff; font-size: 14px; word-break: break-all;">0x6d1434d5fcf063849b2d8b61ede96b351b1398d2</code>
                 <button onclick="navigator.clipboard.writeText('0x6d1434d5fcf063849b2d8b61ede96b351b1398d2')" style="margin-left: 10px; background: #f3ba2f; border: none; padding: 5px 15px; border-radius: 5px; cursor: pointer; font-weight: bold;">Copy</button>
             </div>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
-                <!-- حقل الحرق والرابط -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-bottom: 60px;">
+                <!-- حقل الحرق -->
                 <div style="background: #151515; padding: 30px; border-radius: 25px; border: 1px solid #ff4d4d;">
                     <h3 style="color: #ff4d4d;">Total Burn</h3>
                     <p style="font-size: 32px; font-weight: 800;">1,650,000 <span style="font-size: 14px; color: #ff4d4d; display: block;">MAS Tokens Burnt</span></p>
                     <a href="https://bscscan.com/token/0x6d1434D5fcf063849b2D8b61ede96b351b1398d2?a=0x000000000000000000000000000000000000dead" target="_blank" style="color: #ff4d4d; text-decoration: underline; font-size: 0.9em;">Verify Burn on BscScan</a>
                 </div>
                 
+                <!-- حقل السيولة -->
                 <div style="background: #151515; padding: 30px; border-radius: 25px; border: 1px solid #00ff00;">
                     <h3 style="color: #00ff00;">Liquidity Pool</h3>
                     <p style="font-size: 32px; font-weight: 800;">100% LOCKED</p>
                     <a href="https://www.pinksale.finance/pinklock/bsc/record/1598277" target="_blank" style="color: #00ff00; text-decoration: underline;">Verify on PinkSale</a>
                 </div>
                 
+                <!-- حقل محفظة الفريق -->
                 <div style="background: #151515; padding: 30px; border-radius: 25px; border: 1px solid #f3ba2f;">
                     <h3 style="color: #f3ba2f;">Team Wallet</h3>
                     <p style="font-size: 32px; font-weight: 800;">3.3M LOCKED</p>
                     <a href="https://www.pinksale.finance/pinklock/bsc/record/1576691" target="_blank" style="color: #f3ba2f; text-decoration: underline;">Verify Team Lock</a>
                 </div>
             </div>
+
+            <!-- النبذة التعريفية (تم نقلها هنا بناءً على الصورة 1000139272.jpg) -->
+            <div id="about-mas" style="max-width: 900px; margin: 0 auto; text-align: center; border-top: 1px solid #222; padding-top: 40px;">
+                <h2 style="color: #f3ba2f; font-size: 2em; margin-bottom: 20px;">ABOUT MAS TOKEN</h2>
+                <p style="font-size: 1.1em; color: #eee;">
+                    MAS was born from a vision to create a truly fair and transparent financial ecosystem. Our primary goal is to bridge the gap between complex blockchain technology and everyday users, providing a secure, community-governed asset that rewards long-term conviction.
+                </p>
+                
+                <details style="cursor: pointer; margin-top: 15px;">
+                    <summary style="color: #f3ba2f; font-weight: bold; list-style: none; text-decoration: underline;">[ Read More - اقرأ المزيد ]</summary>
+                    <div style="margin-top: 20px; color: #ccc; background: #111; padding: 20px; border-radius: 15px; text-align: left;">
+                        <p>We believe that financial freedom should not be a privilege, but a right. MAS is designed to be the backbone of a growing movement where trust is verified by code, and growth is driven by the collective strength of its holders. Our commitment to transparency is reflected in every burn and every locked pool, ensuring a deflationary and secure environment for all participants.</p>
+                    </div>
+                </details>
+            </div>
         </div>
     </section>
 
-    <!-- 3. خارطة الطريق (Roadmap) - تم تعديل كمية الحرق -->
+    <!-- 3. خارطة الطريق (Roadmap) -->
     <section id="roadmap" style="padding: 80px 20px; background-color: #0d0d0d; text-align: center;">
         <h2 style="color: #f3ba2f; font-size: 2.5em; margin-bottom: 50px;">MAS ROADMAP 2026</h2>
         <div style="max-width: 850px; margin: 0 auto; text-align: left; border-left: 3px solid #f3ba2f; padding-left: 35px;">
@@ -83,40 +83,7 @@
         </div>
     </section>
 
-    <!-- 4. الشركاء (Partners) -->
-    <section id="partners" style="padding: 60px 20px; background-color: #0a0a0a; text-align: center; border-top: 1px solid #1a1a1a;">
-        <h2 style="color: #f3ba2f; font-size: 2.2em; margin-bottom: 40px;">Trusted Ecosystem Partners</h2>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
-            <div style="min-width: 150px; background: #1a1a1a; padding: 20px; border-radius: 15px;">
-                <div style="font-size: 30px;">🛡️</div>
-                <p style="font-weight: bold; margin: 5px 0;">PinkSale</p>
-                <small style="color: #888;">Security & Locks</small>
-            </div>
-            <div style="min-width: 150px; background: #1a1a1a; padding: 20px; border-radius: 15px;">
-                <div style="font-size: 30px;">🔍</div>
-                <p style="font-weight: bold; margin: 5px 0;">BscScan</p>
-                <small style="color: #888;">Transparency</small>
-            </div>
-        </div>
-    </section>
-
-    <!-- 5. فريق العمل (Team) -->
-    <section id="team" style="padding: 80px 20px; text-align: center; background-color: #0d0d0d;">
-        <h2 style="color: #f3ba2f; font-size: 2.5em; margin-bottom: 50px;">MEET THE LEADERSHIP</h2>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
-            <div style="background: #151515; padding: 35px; border-radius: 25px; width: 320px; border: 1px solid #f3ba2f;">
-                <div style="font-size: 60px; margin-bottom: 20px;">👨‍💻</div>
-                <h3 style="margin-bottom: 5px;">Sezar</h3>
-                <p style="color: #f3ba2f; font-weight: bold;">Lead Developer & Founder</p>
-                <hr style="border: 0.5px solid #333; margin: 15px 0;">
-                <p style="font-size: 0.9em; color: #ccc;">
-                    An expert software developer and scriptwriter with extensive experience in Pine Script and Solidity. Sezar is the architect of the MAS ecosystem, focusing on innovative trading tools and secure smart contracts.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 6. الدعم الرسمي (Footer) -->
+    <!-- 4. الدعم الرسمي (Footer) -->
     <footer style="padding: 60px 20px; background: #000; text-align: center; border-top: 1px solid #222;">
         <h3 style="color: #fff; margin-bottom: 10px;">OFFICIAL SUPPORT CENTER</h3>
         <a href="mailto:support@mas-token.com" style="font-size: 24px; color: #f3ba2f; text-decoration: none; font-weight: bold;">
